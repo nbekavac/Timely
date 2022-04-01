@@ -1,0 +1,25 @@
+
+
+<button [routerLink]="['/stoptimer']" class="btn btn-primary mx-auto d-block">Stop</button>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Project</th>
+            <th>Start</th>
+            <th>Stop</th>
+            <th>Duration</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+            <td>...</td>
+            <td>{{date  | date:'yyyy-MM-dd h:mm:ss'}}</td>
+            <td>...</td>
+            <td>...</td>
+    </tbody>
+</table>
+
+<router-outlet></router-outlet>
+
+
+
